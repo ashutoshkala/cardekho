@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Price Predictor</title>
+</head>
+<body>
+    <h1>Used Car Price Prediction</h1>
+    <!-- <form> -->
+    <form action="/" method="post">
+    <label for="cars">Choose a car:</label>
+
+    <select name="cars" id="cars">
+        <option value=0>Maruti Alto</option>
+        <option value=1>Hyundai Grand</option>
+        <option value=2>Hyundai i20</option>
+        <option value=3>Ford Ecosport</option>
+        <option value=4>Maruti Wagon R</option>
+        <option value=5>Hyundai i10</option>
+        <option value=6>Hyundai Venue</option>
+        <option value=7>Maruti Swift</option>
+        <option value=8>Hyundai Verna</option>
+        <option value=9>Renault Duster</option>
+        <option value=11>Maruti Ciaz</option>
+        <option value=13>Toyota Innova</option>
+        <option value=14>Maruti Baleno</option>
+        <option value=15>Maruti Swift Dzire</option>
+        <option value=16>Volkswagen Vento</option>
+        <option value=17>Hyundai Creta</option>
+        <option value=18>Honda City</option>
+        <option value=20>Toyota Fortuner</option>
+        <option value=21>Renault KWID</option>
+        <option value=22>Honda Amaze</option>
+        <option value=23>Hyundai Santro</option>
+        <option value=24>Mahindra XUV500</option>
+        <option value=25>Mahindra KUV100</option>
+        <option value=26>Maruti Ignis</option>
+        <option value=27>Datsun RediGO</option>
+        
+
+        
+
+    </select>
+    <br><br>
+
+
+    <label for="age">Age of Car (between 1 and 15):</label>
+    <input type="number" id="age" name="age" min="1" max="15" required="required">
+    <br><br>
+
+    <label for="KM">KM driven:</label>
+    <input type="number" id="km" name="km" min="1" max="1000000" required="required">
+
+    <br><br>
+
+    <label for="seller">Choose the seller:</label>
+    <select name="seller" id="seller">
+        <option value="Individual">Individual</option>
+        <option value="Dealer">Dealer</option>
+        <option value="TDealer">Trustmark Dealer</option>
+        
+    </select>
+    <br><br>
+
+    <label for="fuel">Choose Fuel Type :</label>
+    <select name="fuel" id="fuel">
+        <option value="Petrol">Petrol</option>
+        <option value="Diesel">Diesel</option>
+        <option value="CNG">CNG</option>
+        <option value="Electric">Electric</option>
+        
+    </select>
+
+    <br><br>
+
+    <label for="transmission">Choose Transmission Type :</label>
+    <select name="trans" id="trans">
+        <option value="Automatic">Automatic</option>
+        <option value="Manual">Manual</option>
+    </select>
+
+    <br><br>
+    <label for="mileage">Milege of Car:</label>
+    <input type="number" min="1.50" max="29.90" step="any" id="mileage" name="mileage" required="required" title="mileage" class="formfield3" />
+
+
+    <br><br>
+    <label for="engine">Engine Power in cc:</label>
+    <input type="number" id="engine" name="engine" min="1" max="10000" required="required">
+    <br><br>
+
+
+    <label for="engpower">Maximum Power in BPH:</label>
+    <input type="number" min="1.50" max="20000.90" step="any" id="pow" name="pow" required="pow" title="pow" class="formfield3" />
+
+
+    <br><br>
+
+    <label for="seats">Choose no. of Seats :</label>
+    <input type="number" id="seats" name="seats" min="1" max="10" required="required">
+
+        
+    </select>
+    <br><br>
+    <!-- <input type="submit"> -->
+    <button type="submit">Submit</button>
+</form>
+
+</body>
+</html>
