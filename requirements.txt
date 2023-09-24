@@ -13,12 +13,7 @@ absl-py
 addict                        
 aiohttp                       
 aiosignal                     
-albumentations                
-anyio                         
-apache-beam                   
-appnope                       
-argon2-cffi                   
-argon2-cffi-bindings          
+albumentations                      
 array-record                  
 arrow                         
 asttokens                     
@@ -28,9 +23,7 @@ incremental
 ipykernel                     
 ipython                       
 ipython-genutils              
-joblib                        
-json5                         
-MarkupSafe                    
+joblib                                       
 matplotlib                    
 matplotlib-inline             
 numpy                         
